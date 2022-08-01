@@ -1,1 +1,15 @@
-img { display: inline-block; height:100px; width:100px; border-radius:100%; }
+
+    
+        
+   
+#div{
+    background: url(../images/pic11.jpg);
+    background-color: #d46767;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+#div1{
+    padding-inline-start: 47%;
+    padding-top: 2%;
+  }  
