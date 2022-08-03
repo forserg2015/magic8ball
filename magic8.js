@@ -27,19 +27,13 @@ function path() {
           }
             
  
- function updateImage () {
+  function updateImage () {
    
-   document.getElementById("myImage").setAttribute("src",path());
+    document.getElementById("myImage").setAttribute("src",path());
 
   };
 
 
  document.getElementById("myImage").setAttribute("height", "600");
  document.getElementById("myImage").setAttribute("width", "600");
-
  
-
-
-       
-            
-           

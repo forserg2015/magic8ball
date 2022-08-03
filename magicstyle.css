@@ -1,15 +1,39 @@
+    body{
 
+    display: block;
+    margin: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
     
-        
    
-body{
-    background: url(../images/pic11.jpg);
     background-color: #d46767;
-    background-repeat: no-repeat;
     background-size: cover;
     }
 
 #ball{
+    background: url(../images/pic11.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     padding-inline-start: 47%;
-    padding-top: 2%;
-  }  
+    padding-top: 0%;
+ }  
+  
+label {font-size: xx-large;
+    color: rgb(194, 231, 26);
+ }
+
+input{
+    height: 30px;
+    font-size: x-large;
+    background-color: #d46767;
+ }
+
+button{
+    border-width: 3px;
+    font-size: x-large;
+
+    background-color: rgb(79, 36, 180);
+}
+  
