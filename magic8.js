@@ -33,7 +33,7 @@ function path() {
     const ask = document.getElementById('input').value;
     console.log(ask);
 
-    if (ask==""){
+    if (ask==""||ask.indexOf("?")<0){
     alert('Enter you question')
     }else{
    
@@ -51,5 +51,5 @@ function path() {
     document.body.appendChild(newDiv);
    
      }
-  }
+   };
  
