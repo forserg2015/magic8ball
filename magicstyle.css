@@ -6,7 +6,7 @@
     margin-right: 0px;
     margin-bottom: 0px;
     margin-left: 0px;
-    
+    font-size: x-large;
    
     background-color: #d46767;
     background-size: cover;
@@ -36,4 +36,11 @@ button{
 
     background-color: rgb(79, 36, 180);
 }
-  
+
+h2 {
+margin: 0%;
+font-weight: bold;
+font-style: italic;
+font-family: 'Courier New', Courier, monospace;
+color: blue;
+}
