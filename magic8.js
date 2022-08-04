@@ -1,6 +1,6 @@
- document.getElementById("myImage").setAttribute("height", "560");
- document.getElementById("myImage").setAttribute("width", "560");
-
+ document.getElementById("myImage").setAttribute("height", "555");
+ document.getElementById("myImage").setAttribute("width", "555");
+ 
 function path() {
 
  let randomNumber = Math.floor(Math.random() *18);
@@ -27,7 +27,7 @@ function path() {
           : console.log('Something wrong with path()')
 
           }
-            
+       
  
   function updateImage () {
     const ask = document.getElementById('input').value;
@@ -36,8 +36,14 @@ function path() {
     if (ask==""){
     alert('Enter you question')
     }else{
-
-    document.getElementById("myImage").setAttribute("src",path());
+   
+    document.getElementById("myImage").setAttribute("src","images/magic8ball_extra.png");
+   
+    function answer() {
+      document.getElementById("myImage").setAttribute("src",path())
+    }
+     setTimeout(answer,3000);
+    
     document.getElementById("footer").style.display='none';
 
     const newDiv = document.createElement('div');
