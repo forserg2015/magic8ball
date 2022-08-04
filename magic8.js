@@ -1,3 +1,5 @@
+ document.getElementById("myImage").setAttribute("height", "560");
+ document.getElementById("myImage").setAttribute("width", "560");
 
 function path() {
 
@@ -28,18 +30,20 @@ function path() {
             
  
   function updateImage () {
-   
+    const ask = document.getElementById('input').value;
+    console.log(ask);
+
+    if (ask==""){
+    alert('Enter you question')
+    }else{
+
     document.getElementById("myImage").setAttribute("src",path());
     document.getElementById("footer").style.display='none';
 
     const newDiv = document.createElement('div');
-    const ask = document.getElementById('input').value;
-    console.log(ask);
     newDiv.innerHTML = (ask); 
     document.body.appendChild(newDiv);
    
-  };
-    
-
- document.getElementById("myImage").setAttribute("height", "600");
- document.getElementById("myImage").setAttribute("width", "600");
+     }
+  }
+ 
