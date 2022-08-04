@@ -30,10 +30,9 @@ function path() {
   function updateImage () {
    
     document.getElementById("myImage").setAttribute("src",path());
-
+    document.getElementById("footer").style.display='none';
   };
 
 
  document.getElementById("myImage").setAttribute("height", "600");
  document.getElementById("myImage").setAttribute("width", "600");
- 
