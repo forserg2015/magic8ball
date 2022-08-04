@@ -31,10 +31,11 @@ function path() {
    
     document.getElementById("myImage").setAttribute("src",path());
     document.getElementById("footer").style.display='none';
+
     const newDiv = document.createElement('div');
-    const ask = document.getElementsByTagName('input').value
-    newDiv.innerHTML = (ask)// 'hello'
+    const ask = document.getElementById('input').value;
     console.log(ask);
+    newDiv.innerHTML = (ask); 
     document.body.appendChild(newDiv);
    
   };

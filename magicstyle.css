@@ -13,7 +13,7 @@
     }
 
 #ball{
-    background: url(../images/pic11.jpg);
+    background: url(/images/pic11.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     padding-inline-start: 47%;
