@@ -31,8 +31,14 @@ function path() {
    
     document.getElementById("myImage").setAttribute("src",path());
     document.getElementById("footer").style.display='none';
+    const newDiv = document.createElement('div');
+    const ask = document.getElementsByTagName('input').value
+    newDiv.innerHTML = (ask)// 'hello'
+    console.log(ask);
+    document.body.appendChild(newDiv);
+   
   };
-
+    
 
  document.getElementById("myImage").setAttribute("height", "600");
  document.getElementById("myImage").setAttribute("width", "600");
